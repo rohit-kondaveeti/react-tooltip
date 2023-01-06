@@ -1,0 +1,35 @@
+.tooltip_section {
+  display: flex;
+  margin: auto;
+  width: 100%;
+  justify-content: center;
+  height: 500px;
+  align-items: center;
+}
+.position_btn {
+  position: absolute;
+  top: 85px;
+}
+.position_btn button {
+  margin: auto 20px;
+  background: #fff;
+  border: 1px solid #1976d2;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: #1976d2;
+  font-weight: 500;
+  cursor: pointer;
+}
+.position_btn button:hover {
+  background: aliceblue;
+}
+.position_btn button.active {
+  color: #fff;
+  background: #1976d2;
+}
+h1 {
+  position: absolute;
+  top: 30px;
+  font-weight: 400;
+  font-size: 18px;
+}
